@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./Navbar";
 
 class App extends Component {
   handleSubmit = e => {
@@ -33,9 +33,23 @@ class App extends Component {
 
   render() {
     return (
-      <>
-        <Navbar />
-      </>
+        <div className="App">
+          <img src={logo} className="logo" alt="Business view - Reports" />
+          <form className="form" onSubmit={this.handleSubmit}>
+            <div className="input-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" name="email" placeholder="nome@email.com.br" />
+            </div>
+            <div className="input-group">
+              <label htmlFor="password">Mot de passe</label>
+              <input type="password" name="password" />
+            </div>
+            <button className="primary">Se connecter</button>
+          </form>
+          <button className="secondary" onClick={this.handleClick}>
+            S'inscrire
+          </button>
+        </div>
     );
   }
 }

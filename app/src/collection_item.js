@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from "react";
-import "./collection.css"
+import "./collection.css";
+// import { AxiosClientPublication } from "@services/index";
 
 export default function collection_item(){
     return(
@@ -17,3 +18,16 @@ export default function collection_item(){
         </div>
     )
 }
+
+// const AxiosClientManga = axios.create({
+//     baseURL: "http://localhost:8080/api/manga",
+// } )
+
+// export const createManga = async (url) => {
+// let res = await AxiosClientManga.get(url)
+// return { data: res.data, status: res.status, statusText: res.statusText }
+// }
+
+// Pour utiliser la fonction :
+// createManga( "/url" )
+// Cette fonction déclenchera une requete à l'url : http://localhost:8080/api/manga/url

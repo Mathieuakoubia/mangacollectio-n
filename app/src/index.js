@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Navbar from './Navbar';
-import Collection from './collection_item';
+import './css/index.css';
+import Navbar from './js/component/Navbar';
 
-ReactDOM.render(<><Navbar /><Collection /></>, document.getElementById('root'));
+ReactDOM.render(
+<div className="app">
+    <BrowserRouter>
+        <Navbar />
+        <AnimatedRoute />
+        <Footer />
+    </BrowserRouter>
+</div>, document.getElementById('root'));

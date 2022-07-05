@@ -1,11 +1,11 @@
 import React, {useState,useEffect} from "react";
 import "@css/collectionItem.scss";
-// import { AxiosClientPublication } from "@services/index";
+import tomeNaruto from "@assets/Naruto_tome_1.jpg"
 
 export default function collection_item(){
     return(
         <div class="collection-container">
-            <img src="img.jpg" alt="couverture manga" />
+            <img src={tomeNaruto} alt="couverture manga" />
             <div class="description">
                 <h3>Title</h3>
                 <ul>

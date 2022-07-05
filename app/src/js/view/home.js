@@ -1,4 +1,4 @@
-import Img from "@assets/img404.jpg";
+import Img from "@assets/en_cours.webp";
 import React, {useState,useEffect} from "react";
 import { Link } from "react-router-dom";
 import "@css/notFound.scss"

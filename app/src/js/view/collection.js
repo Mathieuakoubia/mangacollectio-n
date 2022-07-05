@@ -8,6 +8,23 @@ export default function Home(){
     return(
         <div id="collection-container">
             <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
+            <Collection />
         </div>
     )
 }

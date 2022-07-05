@@ -5,7 +5,7 @@
 		"target": "ES6",
 		"paths": {
 			"@components/*": ["./src/js/components/*"],
-			"@views/*": ["./src/js/views/*"],
+			"@view/*": ["./src/js/view/*"],
 			"@assets/*": ["./src/assets/*"],
 			"@css/*":["./src/css/*"]
 		}

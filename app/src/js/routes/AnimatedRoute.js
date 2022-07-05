@@ -2,6 +2,7 @@ import React from 'react';
 import Collection from '../view/collection';
 import NotFound from '../view/notfound';
 import Home from '../view/home';
+import DetailsSerie from '../view/details_serie'
 import { Route, Routes, useLocation } from "react-router-dom";
 
 export default function AnimatedRoute() {
@@ -15,6 +16,7 @@ export default function AnimatedRoute() {
         </Route>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/detailSerie" element={<DetailsSerie />} />
     </Routes>
   )
 }

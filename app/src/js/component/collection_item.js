@@ -8,11 +8,11 @@ export default function collection_item(){
         <div class="collection-container">
             <img src={tomeNaruto} alt="couverture manga" />
             <div class="description">
-                <h3>Title</h3>
+                <h3>Naruto</h3>
                 <ul>
-                    <li>nb tome</li>
-                    <li>auteur</li>
-                    <li>date</li>
+                    <li>tome 72</li>
+                    <li>masashi kishimoto</li>
+                    <li>1998</li>
                 </ul>
                 <Link to="/detailSerie">voir plus</Link>
             </div>

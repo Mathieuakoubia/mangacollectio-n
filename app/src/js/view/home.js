@@ -1,12 +1,16 @@
+import Img from "@assets/img404.jpg";
 import React, {useState,useEffect} from "react";
-import Collection from '../component/collection_item';
+import { Link } from "react-router-dom";
+import "@css/notFound.scss"
 
-// const test = [{title : 1}, {title : 2}, {title : 3}];s
-
-export default function Home(){
+export default function NotFound(){
     return(
-        <div>
-            <Collection />
+        <div id="not-found">
+            <img src={Img} />
+            <article>
+                <h1>En cours</h1>
+                <p>En cours de construction</p>
+            </article>
         </div>
     )
 }

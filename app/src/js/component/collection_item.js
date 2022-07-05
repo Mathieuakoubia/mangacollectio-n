@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from "react";
-import "./collection.css";
+import "@css/collectionItem.scss";
 // import { AxiosClientPublication } from "@services/index";
 
 export default function collection_item(){

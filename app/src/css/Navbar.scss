@@ -44,3 +44,10 @@ body {
       border-radius: 30px;
     }
   }
+
+  a:not(.menu a){
+    text-decoration: none;
+    list-style: none;
+    font-weight: 550;
+    color: #000;
+  }

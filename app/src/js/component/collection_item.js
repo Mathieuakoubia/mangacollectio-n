@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from "react";
 import "@css/collectionItem.scss";
 import tomeNaruto from "@assets/Naruto_tome_1.jpg"
+import { Link } from "react-router-dom";
 
 export default function collection_item(){
     return(
@@ -13,7 +14,7 @@ export default function collection_item(){
                     <li>auteur</li>
                     <li>date</li>
                 </ul>
-                <a href="">voir plus</a>
+                <Link to="/detailSerie">voir plus</Link>
             </div>
         </div>
     )

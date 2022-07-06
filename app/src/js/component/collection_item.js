@@ -12,7 +12,7 @@ export default function collection_item(){
                 <ul>
                     <li>tome 72</li>
                     <li>masashi kishimoto</li>
-                    <li>1998</li>
+                    <li>2000</li>
                 </ul>
                 <Link to="/detailSerie">voir plus</Link>
             </div>

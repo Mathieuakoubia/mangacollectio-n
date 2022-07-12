@@ -19,3 +19,12 @@ export default function manga(){
         </div>
     )
 }
+
+//call API to get manga
+const manga = () => {
+    const [manga, setManga] = useState([]);
+    useEffect(() => {
+        fetch("https://api.jikan.moe/v3/manga/1")
+        .then(res => res.json())
+        .then(data => setManga(data))
+    }, []);
